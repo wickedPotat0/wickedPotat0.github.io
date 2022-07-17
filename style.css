@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+#clock {
+  font-size: 60px;
+}
+
+#greeting {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login-form input:first-child {
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#login-form input:first-child::placeholder {
+  color: black;
+}
+
+#login-form input:last-child {
+  margin-top: 10px;
+  width: 100px;
+  height: 35px;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: yellow;
+}
+
+.hidden {
+  display: none;
+}
+
+#todo-form input {
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  border: 10px solid yellow;
+}
+
+ul {
+  font-size: 30px;
+}
+
+button {
+  position: relative;
+  top: -5px;
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+#weather span {
+  margin: 10px;
+}
